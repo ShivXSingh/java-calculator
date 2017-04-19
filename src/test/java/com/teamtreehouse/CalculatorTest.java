@@ -20,12 +20,14 @@ public class CalculatorTest {
         assertEquals(3, result);
     }
 
+
     @Test
     public void subtractRemoves() throws Exception {
-        int result = calc.subtract(3, 1);
+        int result = calc.subtract(5, 1);
 
-        assertEquals(2, result);
+        assertEquals(4, result);
     }
+
 
     @Test
     public void multiplyWorks() throws Exception {
